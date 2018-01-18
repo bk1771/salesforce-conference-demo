@@ -58,7 +58,7 @@ function showSessionDetails(sessionId) {
                                 '<h4>' + session.Session__r.Name + '</h4>' +
                                 '<p>' + (session.Session__r.Session_Date__c || 'No time yet')+ '</p>' +
                             '</li>' +
-                            '<li class="table-view-cell">Speaking: ' +
+                            '<li class="table-view-cell">Speaker: ' +
                                 session.Speaker__r.First_Name__c + ' ' +
                                 session.Speaker__r.Last_Name__c +
                             '</li>' +
