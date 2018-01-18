@@ -61,6 +61,9 @@ function showSessionDetails(sessionId) {
                                 session.Speaker__r.Last_Name__c +
                             '</li>' +
                             '<li class="table-view-cell">' +
+                                (session.Session__r.Level__c || 'No Level Specified') +
+                            '</li>' +
+                            '<li class="table-view-cell">' +
                                 (session.Session__r.Description__c || 'No description yet') +
                             '</li>' +
                         '</ul>' +
